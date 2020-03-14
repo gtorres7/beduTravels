@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: royalblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px auto 100px;
+}
+
+header{
+    background-color: salmon;
+    grid-column: 1/-1;
+}
+
+aside{
+    background-color: yellowgreen;
+}
+
+section{
+    background-color: seagreen;
+    grid-column: 2/-1;
+}
+
+footer{
+    background-color: orangered;
+    grid-column: 1/-1;
+    grid-row: ;
+}
+
