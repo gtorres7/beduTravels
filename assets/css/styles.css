@@ -1,0 +1,127 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+article#principal {
+    color: blueviolet;
+    background-color: crimson;
+}
+
+#principal{
+    color: lightcoral;
+}
+/* header{
+    background-color: darkgreen;
+    color: greenyellow;
+} */
+
+#uno{
+    background-color: lawngreen;
+}
+
+#dos{
+    font-size: medium;
+    color: indigo;
+    font-weight: bold;
+}
+
+article.verde{
+    background-color: green;
+    min-height: 30px;
+}
+
+nav{
+    background-color: #24272a;
+    min-height: 60px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav >div>a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+#bedu-logo{
+    width: 50px;
+    margin: 5%;
+}
+
+#bedu-logo svg{
+    fill: white;   
+}
+
+section{
+    height: 600px;
+    background-image: url("https://www.fodors.com/wp-content/uploads/2019/12/WinterBeachEscapes__HERO_shutterstock_1271867908.jpg");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+footer{
+    padding-top: 0;
+    margin: 0;
+    color: white;
+    background-color: #24272a;
+    height: 100px;
+    text-decoration: white;
+}
+
+#imgs{
+    height: 50px;
+    width: 100x;
+}
+
+input{
+    border: 1px solid #ffffff;
+    padding: 5px 12px;
+    border-radius: 2px;
+    width: 25%;
+}
+section>div{
+    text-align: center;
+    width: 100%;
+}
+
+section>div>p{
+    text-align: center;
+    width: 100%;
+    
+}
+
+nav>div>a:hover {
+    color: red;
+  }
+
+.container-title-subtitle > p:first-child{
+font-size: 30px;
+text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+}
+
+.container-title-subtitle > p:nth-child(2){
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+}
+
+
+@media only screen and (max-width:600px){
+    section{
+        background-image: url("https://as.com/meristation/imagenes/2019/12/26/noticias/1577361425_083164_1577361572_noticia_normal.jpg");
+    }
+    input{
+        display: none;
+    }
+}
