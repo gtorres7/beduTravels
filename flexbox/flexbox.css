@@ -1,0 +1,49 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+background-color: orangered;
+
+height: 100px;
+}
+
+aside{
+background-color: palevioletred;
+flex: 1;
+}
+
+footer{
+background-color: rebeccapurple;
+
+height: 100px;
+
+}
+
+section{
+background-color: turquoise;
+flex: 5;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.contenido{
+    display: flex;
+    flex: 1;
+}
+
+.circulo{
+    background-color: wheat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   
+}
